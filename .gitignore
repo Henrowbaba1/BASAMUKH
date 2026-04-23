@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+extracted_text.txt
+nasc_text.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Large binaries (Optional - remove if you want to keep them in GitHub)
+# *.docx
+# *.pdf
