@@ -108,32 +108,40 @@
             </div>
         </div>
     </section>
-
-    <!-- NEW PAGE: PROJECTS & CONTRACTS -->
     <section id="projects" class="section-projects page-break">
         <div class="container">
             <h2 class="section-title">Past Projects & Contract Execution</h2>
-            <p class="lead">A proven track record of delivering high-quality seeds to government programs and international organizations.</p>
+            <p class="lead">A proven track record of delivering high-quality seeds to government programs and international organizations. All engagements were executed successfully with full delivery and payment.</p>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-tag">State Government</div>
-                    <h4>Kaduna & Kebbi ADP</h4>
-                    <p>Contracted seed supplier for Agricultural Development Programmes, supporting cluster-based farming with large-scale delivery of certified seeds.</p>
+                    <h4>Kaduna ADP (Ruwan Sanyi & Ludduga)</h4>
+                    <p>Supplied certified, high-quality seeds in large quantities to support cluster-based farming initiatives.</p>
+                    <span class="read-more-link" onclick="openTextModal('project_kaduna')">Read More</span>
+                </div>
+                <div class="project-card">
+                    <div class="project-tag">State Government</div>
+                    <h4>Kebbi State ADP</h4>
+                    <p>Provided bulk quantities of improved seeds, meeting required quality and certification standards.</p>
+                    <span class="read-more-link" onclick="openTextModal('project_kebbi')">Read More</span>
                 </div>
                 <div class="project-card">
                     <div class="project-tag">International NGO</div>
                     <h4>Pyxera Global – Rayuwa</h4>
-                    <p>Delivered large volumes of certified seeds for the Rayuwa Project in Katsina State, ensuring timely input availability for project beneficiaries.</p>
+                    <p>Delivered large volumes of certified seeds to project beneficiaries across Katsina State.</p>
+                    <span class="read-more-link" onclick="openTextModal('project_pyxera')">Read More</span>
                 </div>
                 <div class="project-card">
                     <div class="project-tag">Community Development</div>
                     <h4>Nuru International</h4>
-                    <p>Supplied high-quality seeds for community-based interventions in Adamawa State, contributing to improved farm yields and livelihoods.</p>
+                    <p>Large-scale supply of high-quality seeds to support community-based agricultural interventions in Adamawa State.</p>
+                    <span class="read-more-link" onclick="openTextModal('project_nuru')">Read More</span>
                 </div>
                 <div class="project-card">
                     <div class="project-tag">State Government</div>
-                    <h4>Gombe State Input Programme</h4>
-                    <p>Bulk supply of certified high-quality seeds in compliance with state food security initiatives and seasonal distribution programs.</p>
+                    <h4>Gombe State Programme</h4>
+                    <p>Bulk supply of certified seeds supporting food security and the Rural Access and Agricultural Marketing Project (RAAMP).</p>
+                    <span class="read-more-link" onclick="openTextModal('project_gombe')">Read More</span>
                 </div>
             </div>
         </div>
@@ -143,36 +151,43 @@
     <section id="products" class="section-products page-break">
         <div class="container">
             <h2 class="section-title text-center">Our Seed Portfolio</h2>
-            <div class="products-grid">
                 <div class="product-item">
                     <div class="product-header">
                         <span class="product-icon">🌽</span>
-                        <h4>Maize Hybrids</h4>
+                        <h4>Hybrid & Improved Maize Varieties</h4>
                     </div>
-                    <p>High-yield hybrids including SAMMAZ-50, S-17, and S-52, featuring superior drought resistance and pest tolerance.</p>
+                    <ul class="maize-varieties-list">
+                        <li><strong>SAMMAZ 14</strong> (Quality Protein Maize)</li>
+                        <li><strong>SAMMAZ 15</strong> (Striga Resistance)</li>
+                        <li><strong>SAMMAZ 50</strong> (Hybrid)</li>
+                        <li><strong>SAMMAZ 51</strong> (High Yielding)</li>
+                        <li><strong>SAMMAZ 52</strong> (Pro-Vitamin A)</li>
+                        <li><strong>SAMMAZ 54</strong> (Early & High Yield)</li>
+                        <li><strong>SAMMAZ 66</strong> (High Yielding Hybrid)</li>
+                    </ul>
+                    <p class="more-text">...and many more specialized varieties.</p>
                 </div>
                 <div class="product-item">
                     <div class="product-header">
                         <span class="product-icon">🌾</span>
                         <h4>Rice & Sorghum</h4>
                     </div>
-                    <p>Climate-resilient high-yield rice and sorghum varieties designed for food security and industrial use.</p>
+                    <p>Climate-resilient varieties designed for food security and industrial use, including FARO varieties.</p>
                 </div>
                 <div class="product-item">
                     <div class="product-header">
                         <span class="product-icon">🌱</span>
                         <h4>Soybean & Cowpea</h4>
                     </div>
-                    <p>Bred for high germination and protein content. Our cowpea includes advanced PBR biotech varieties via AATF.</p>
+                    <p>Bred for high germination. Includes SAMPEA and PBR biotech varieties via AATF.</p>
                 </div>
                 <div class="product-item">
                     <div class="product-header">
                         <span class="product-icon">🥜</span>
                         <h4>Groundnut & Sesame</h4>
                     </div>
-                    <p>Oil-rich varieties with enhanced resistance to disease, specifically adapted for the sub-Saharan climate.</p>
+                    <p>Oil-rich varieties specifically adapted for the sub-Saharan climate.</p>
                 </div>
-            </div>
             <div class="seed-categories-box">
                 <h4>Seed Categories Available</h4>
                 <div class="categories-list">
@@ -188,14 +203,71 @@
     <section id="partners" class="section-partners page-break">
         <div class="container">
             <h2 class="section-title text-center">Strategic Partnerships</h2>
-            <p class="section-subtitle text-center">Collaborating with leading research and regulatory institutions.</p>
+            <p class="section-subtitle text-center">Collaborating with leading research and regulatory institutions to ensure genetic purity and excellence.</p>
             <div class="partners-list">
-                <div class="partner-item"><strong>NASC</strong> - National Agricultural Seed Council</div>
-                <div class="partner-item"><strong>IAR</strong> - Institute for Agricultural Research</div>
-                <div class="partner-item"><strong>NCRI</strong> - National Cereals Research Institute, Badeggi</div>
-                <div class="partner-item"><strong>Eco-Basic</strong> - Advanced Seed Varieties</div>
-                <div class="partner-item"><strong>Value Seeds</strong> - Foundation Seed Sourcing</div>
-                <div class="partner-item"><strong>AATF</strong> - African Agricultural Technology Foundation</div>
+                <div class="partner-item"><strong>NASC</strong> - Regulatory oversight and seed certification standards. <span class="read-more-link" onclick="openTextModal('partner_nasc')">Read More</span></div>
+                <div class="partner-item"><strong>IAR</strong> - Access to breeder seeds and technical expertise in processing. <span class="read-more-link" onclick="openTextModal('partner_iar')">Read More</span></div>
+                <div class="partner-item"><strong>NCRI, Badeggi</strong> - Sourcing foundation seeds for rice and soybean. <span class="read-more-link" onclick="openTextModal('partner_ncri')">Read More</span></div>
+                <div class="partner-item"><strong>Eco-Basic</strong> - Improved varieties including PBR Cowpea and hybrid maize. <span class="read-more-link" onclick="openTextModal('partner_ecobasic')">Read More</span></div>
+                <div class="partner-item"><strong>Value Seeds</strong> - Foundation seed sourcing across multiple categories. <span class="read-more-link" onclick="openTextModal('partner_valueseeds')">Read More</span></div>
+                <div class="partner-item"><strong>AATF</strong> - Production of advanced and biotech PBR seeds. <span class="read-more-link" onclick="openTextModal('partner_aatf')">Read More</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: QUALITY RESULTS -->
+    <section id="quality" class="section-quality page-break">
+        <div class="container">
+            <h2 class="section-title text-center">Laboratory Seed Test Results</h2>
+            <p class="section-subtitle text-center">Official metrics from NASC verifying our seed quality and performance.</p>
+            <div class="quality-grid">
+                <div class="quality-card">
+                    <div class="quality-icon">🔬</div>
+                    <h4>SAMMAZ-50 (Maize)</h4>
+                    <div class="stat-row"><span>Purity</span> <strong>99.8%</strong></div>
+                    <div class="stat-row"><span>Germination</span> <strong>95%</strong></div>
+                    <div class="stat-row"><span>Moisture</span> <strong>12.1%</strong></div>
+                </div>
+                <div class="quality-card">
+                    <div class="quality-icon">🔬</div>
+                    <h4>SAMMAZ-52 (Maize)</h4>
+                    <div class="stat-row"><span>Purity</span> <strong>99.8%</strong></div>
+                    <div class="stat-row"><span>Germination</span> <strong>98%</strong></div>
+                    <div class="stat-row"><span>Moisture</span> <strong>11.6%</strong></div>
+                </div>
+                <div class="quality-card">
+                    <div class="quality-icon">🔬</div>
+                    <h4>SAMPEA-14 (Cowpea)</h4>
+                    <div class="stat-row"><span>Purity</span> <strong>99.7%</strong></div>
+                    <div class="stat-row"><span>Germination</span> <strong>91%</strong></div>
+                    <div class="stat-row"><span>Moisture</span> <strong>10.6%</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: FARM GALLERY -->
+    <section id="gallery" class="section-gallery page-break">
+        <div class="container">
+            <h2 class="section-title text-center">Visual Impact: Our Farms</h2>
+            <p class="section-subtitle text-center">A glimpse into our high-performance production fields.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="WhatsApp Image 2026-04-20 at 19.59.36.jpeg" alt="Maize Farm Field">
+                    <div class="gallery-label">Premium Maize Farm</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="WhatsApp Image 2026-04-20 at 20.02.21.jpeg" alt="Rice Farm Field">
+                    <div class="gallery-label">High-Yield Rice Field</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="WhatsApp Image 2026-04-20 at 20.01.19.jpeg" alt="Sorghum Farm">
+                    <div class="gallery-label">Sorghum Production</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="WhatsApp Image 2026-04-20 at 20.00.07.jpeg" alt="Maize Cob">
+                    <div class="gallery-label">Hybrid Maize Performance</div>
+                </div>
             </div>
         </div>
     </section>
