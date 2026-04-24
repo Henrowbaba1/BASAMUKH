@@ -60,6 +60,11 @@ const certData = {
         text: 'Company Name: BASAMUKH INTEGRATED SERVICES NIG LTD\nRC Number: 1415546\nDate of Incorporation: 26th May 2017\n\nRegistered as a Private Company Limited by Shares with a share capital of N10,000,000.00. The company is authorized to carry on business as general merchants, agricultural services providers, and seed production specialists.',
         link: 'CAC.jpeg'
     },
+    'receipts': {
+        title: 'Payment Receipts & Evidence',
+        text: 'Official payment receipts for regulatory filings and annual returns. This confirms that the company maintains up-to-date financial compliance with the Corporate Affairs Commission and other relevant tax authorities.',
+        link: 'Receipts.jpeg'
+    },
     'nasc': {
         title: 'NASC Seed License Details',
         text: 'Regulatory Body: National Agricultural Seed Council (NASC)\nRegistration No: 0006\n\nThis license authorizes Basamukh Seed Integrated Services to operate as a Licensed Seed Producer and Processor in Nigeria. It confirms compliance with the National Agricultural Seed Act, ensuring all seeds produced meet the highest standards of germination and purity.',
