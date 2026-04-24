@@ -635,29 +635,32 @@ section { padding: 60px 0; }
 
 .read-more-link:hover { color: var(--accent); }
 
-/* Core Values */
-.core-values {
-    margin-top: 2rem;
-    padding: 1.5rem;
-    background: var(--light);
-    border-radius: 12px;
-    border-right: 4px solid var(--accent);
+/* Core Values (Compact Card Version) */
+.core-values-card {
+    border-right: 6px solid var(--accent);
+    border-left: none !important;
 }
 
-.core-values h4 { color: var(--primary); margin-bottom: 1rem; font-size: 1.2rem; }
-.values-list { list-style: none; }
-.values-list li {
+.values-list-compact {
+    list-style: none;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.values-list-compact li {
     position: relative;
-    padding-left: 1.8rem;
-    margin-bottom: 0.6rem;
-    font-size: 1rem;
+    padding-left: 1.5rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+    font-weight: 600;
 }
 
-.values-list li::before {
-    content: '⭐';
+.values-list-compact li::before {
+    content: '•';
     position: absolute;
     left: 0;
-    font-size: 0.9rem;
+    color: var(--accent);
+    font-weight: 900;
 }
 
 /* Full Width Projects & Partners */
