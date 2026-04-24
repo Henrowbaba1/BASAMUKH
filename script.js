@@ -32,15 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // PDF Download Button (Direct Download)
+    // PDF Download Button (Trigger Browser Print for PDF Export)
     const pdfBtn = document.getElementById('pdf-btn');
     pdfBtn.addEventListener('click', () => {
-        const link = document.createElement('a');
-        link.href = 'Basamukh Integrated Services _ Premium Company Profile.pdf';
-        link.download = 'Basamukh_Company_Profile.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        window.print();
     });
 
     // Smooth Scrolling for Nav Links
