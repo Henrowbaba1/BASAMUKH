@@ -84,6 +84,26 @@ const certData = {
         title: 'Letter of Award Details',
         text: 'Issuing Authority: Kebbi State Fadama Coordination Office (World Bank Assisted)\nDate: May 2022\n\nProject: Supply of Certified Seeds (Sorghum, Millet, and Maize)\nTotal Contract Value: N32,231,250.00\n\nThis award recognizes our capacity to deliver large-scale agricultural inputs for international development projects.',
         link: 'LETTER OF AWARD.jpeg'
+    },
+    'maize_lab': {
+        title: 'Maize Seed Test Result',
+        text: 'Official NASC Laboratory analysis for Hybrid Maize varieties, confirming superior quality and performance.',
+        link: 'maize.png'
+    },
+    'cowpea_lab': {
+        title: 'Cowpea Seed Test Result',
+        text: 'Official NASC Laboratory analysis for improved Cowpea varieties, confirming high germination rates.',
+        link: 'cowpea.png'
+    },
+    'sorghum_lab': {
+        title: 'Sorghum Seed Test Result',
+        text: 'Official NASC Laboratory analysis for specialized Sorghum varieties, ensuring purity and field resilience.',
+        link: 'sorghum.png'
+    },
+    'soybean_lab': {
+        title: 'Soybean Seed Test Result',
+        text: 'Official NASC Laboratory analysis for improved Soybean varieties, confirming adherence to certification standards.',
+        link: 'soybean.png'
     }
 };
 
